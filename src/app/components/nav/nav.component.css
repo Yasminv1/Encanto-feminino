@@ -1,0 +1,52 @@
+nav{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.logo{
+    margin-right: 13%;
+}
+
+.left-menu ul,
+.right-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-menu ul li,
+.right-menu ul li {
+    display: inline-block;
+}
+
+.left-menu ul li a,
+.right-menu ul li a {
+    color: #474747;
+    text-decoration: none;
+    padding: 8px 14px;
+    display: block;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 557px) {
+    nav{
+        padding: 10px;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        margin-left: 10%;
+    }    
+    .right-menu{
+        display: none;
+    }
+    .logo{
+        margin-left: 15% ;
+        margin-top: 5%;
+    }
+ 
+}
